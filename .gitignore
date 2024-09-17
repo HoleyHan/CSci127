@@ -1,6 +1,8 @@
 
 .DS_Store
 *.docx
+*.HEIC
+*.JPG
 lecSlip1.py
 lecSlip2.py
 program6.py
