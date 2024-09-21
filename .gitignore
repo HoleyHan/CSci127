@@ -1,12 +1,11 @@
 
 .DS_Store
+*.env
 *.docx
 *.HEIC
 *.JPG
 lecSlip1.py
 lecSlip2.py
-program6.py
-program7.py
 program8.py
 program9.py
 program10.py
