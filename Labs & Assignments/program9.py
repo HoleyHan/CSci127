@@ -7,14 +7,12 @@ import turtle
 #Write a program that asks the user for the hexcode of a color and then displays a turtle that #color.
 myTurtle = turtle.Turtle()
 
-hexString = input("Enter a hex string: ")
-
+colorInput = input("Enter a hex string: ") #user input includes #
+#hexString = "#" + hexString
 
 myTurtle.shape("turtle")
-myTurtle.color(hexString)
+myTurtle.color(colorInput)
 #A sample run of your program should look like:
-
-print("and the output should look similar to: ", hexString)
 
 #Enter a hex string:  #A922A9
 #and the output should look similar to: (purple turtle)
