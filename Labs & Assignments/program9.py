@@ -13,6 +13,7 @@ colorInput = input("Enter a hex string: ") #user input includes #
 myTurtle.shape("turtle")
 myTurtle.color(colorInput)
 #A sample run of your program should look like:
+print(myTurtle)
 
 #Enter a hex string:  #A922A9
 #and the output should look similar to: (purple turtle)
