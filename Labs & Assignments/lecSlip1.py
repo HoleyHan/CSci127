@@ -1,21 +1,25 @@
 #Name: Han Ning Zhang, Han Zhang
 #Email: han.zhang65@myhunter.cuny.edu, han.zhang.med18@gmail.com
-#Date: September 17, 2024
-#Lecture Slip 2
+#Date: September 10, 2024
+#Lecture Slip 1
 
-#Strings,  a sequence of characters, are indicated by '' or "".
-#Strings, string methods, string indexing, get user input, loop through strings, for and range() function, loop through lists, split() function, command line, and learn unix commands.
+#Write a Python program that:
+#Asks the user to enter their first name.
+#Gets the length of the name entered and stores that value in a variable.
+#Using the turtle library, draws a polygon where the number of sides equals the length of the user's name.
+import turtle
 
-#strings start off at index 0 e.g.
+wn=turtle.Screen()
 
-myString = input("Please enter a string: ")
+firstNameTurtle=turtle.Turtle()
+firstName = input("Please enter your first name: ")
 
-stringList = myString.split() #split into words into a list
+firstNameLength = len(firstName) #len returns an integer
 
-for x in stringList: #loops through the list
-    for ch in x: #loops through each character in the string
-        n = ord(ch) #ord() returns the unicode number of a character
-        y = n + 1 #y = unicode number + 1
-        z = chr(y) #z = character
-        print(ch, y, z) #prints the character, unicode number +1 and its corresponding character
+for n in range(firstNameLength):
+	turtle.forward(100)
+	turtle.left(360 / firstNameLength)
 
+#Turtle module GUI
+
+wn.exitonclick()

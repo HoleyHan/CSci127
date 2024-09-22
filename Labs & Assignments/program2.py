@@ -3,19 +3,16 @@
 #Date: September 3, 2024
 #This program draws an octagon.
 
-#Import Turtle module
-import turtle
+import turtle #turtle is a library.
 
-#Turtle module GUI
-wn=turtle.Screen()
+wn=turtle.Screen() #Turtle module GUI
 
-#Instantiating a turtle named: hanZ
-hanZ = turtle.Turtle()
+hanZ = turtle.Turtle() #Instantiating a turtle named: hanZ
 
-#Move hanZ to form an octagon, move forward 100 steps, then turn is about 45 degree, repeat for 8 the 8 sides:
+#Move hanZ to form an octagon - move forward 100 steps, turn 45°, & repeat for 8 the 8 sides:
 
 for i in range(8):
-	hanZ.forward(100)
-	hanZ.left(45) #45 degrees
+	hanZ.forward(100) #100 steps
+	hanZ.left(45) #45 degrees (360/5)
 
-wn.exitonclick()
+wn.exitonclick() #click on GUI to exit
