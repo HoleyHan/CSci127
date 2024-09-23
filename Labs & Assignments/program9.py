@@ -4,16 +4,13 @@
 #Create hex-color input turtle coloring program
 import turtle
 
-#Write a program that asks the user for the hexcode of a color and then displays a turtle that #color.
-myTurtle = turtle.Turtle()
+wn=turtle.Screen()
 
-colorInput = input("Enter a hex string: ") #user input includes #
-#hexString = "#" + hexString
+t = turtle.Turtle()
 
-myTurtle.shape("turtle")
-myTurtle.color(colorInput)
-#A sample run of your program should look like:
-print(myTurtle)
+hexString = input("Enter a hex string: ") #user input includes #
+t.shape('turtle')
+t.color(hexString) 
 
-#Enter a hex string:  #A922A9
-#and the output should look similar to: (purple turtle)
+turtle.exitonclick()
+
