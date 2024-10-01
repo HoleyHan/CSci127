@@ -13,10 +13,12 @@ wn = turtle.Screen()
 
 t=turtle.Turtle()
 
-#For each number, turn the turtle left the degrees entered and then the turtle should move forward 100.
+n = [] #creates an empty list
 
-for i in range(5):
-    t.left(int(input("Enter a number: ")))
-    t.forward(100)
+while len(n) < 5: # while the length of the list is less than 5
+    degree=int(input("Please enter a number: "))
+    n.append(degree) #adds the number to the list
+    t.left(degree) #turns the turtle left the degrees entered
+    t.forward(100) #moves the turtle forward 100
 
 wn.exitonclick()
