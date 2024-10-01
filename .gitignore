@@ -5,7 +5,7 @@
 *.HEIC
 *.JPG
 .venv/
-.venv/
+/pycache/
 lecSlip1.py
 lecSlip2.py
 program8.py
