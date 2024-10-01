@@ -1,24 +1,19 @@
 #Name: Han Ning Zhang, Han Zhang
 #Email: han.zhang65@myhunter.cuny.edu, han.zhang.med18@gmail.com
 #Date: Oct 1, 2024
-#Program14: Write a program that asks the user for 5 whole (integer) numbers. 
-#For each number, turn the turtle left the degrees entered and then the turtle should move forward 100.
-
-#Program 13: Asks for a message, then prints the message in reverse with two copies for each character per line.
+#Program14
 
 import turtle
 
-#Turtle module GUI
+# Turtle module GUI
 wn = turtle.Screen()
+t = turtle.Turtle()
+t.speed(5)
 
-t=turtle.Turtle()
+# Ask the user for 5 angles and move the turtle accordingly
+for _ in range(5):  # Loop 5 times
+    degree = int(input("Please enter an integer degree: "))
+    t.left(degree)  # Turn the turtle left by the entered degrees
+    t.forward(100)  # Move the turtle forward by 100 units
 
-n = [] #creates an empty list
-
-while len(n) < 5: # while the length of the list is less than 5
-    degree=int(input("Please enter a number: "))
-    n.append(degree) #adds the number to the list
-    t.left(degree) #turns the turtle left the degrees entered
-    t.forward(100) #moves the turtle forward 100
-
-wn.exitonclick()
+wn.exitonclick()  # Exit when the window is clicked
