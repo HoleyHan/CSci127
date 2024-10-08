@@ -1,10 +1,11 @@
 #Name: Han Ning Zhang, Han Zhang
 #Email: han.zhang65@myhunter.cuny.edu, han.zhang.med18@gmail.com
-#Date: September 9, 2024
+#Date: October 8, 2024
 #Create cypher encrypting program
 
 
-#Write a program that prompts the user to enter a word and then prints out the word with each #letter shifted right by 13. That is, 'a' becomes 'n', 'b' becomes 'o', ... 'y' becomes 'l', and #'z' becomes 'm'. Assume that all inputted words are in lower case letters: 'a',...,'z'.
+#Write a program that prompts the user to enter a word and then prints out the word with each #letter shifted right by 13. 
+#That is, 'a' becomes 'n', 'b' becomes 'o', ... 'y' becomes 'l', and #'z' becomes 'm'. Assume that all inputted words are in lower case letters: 'a',...,'z'.
 
 # Define the alphabet string
 alphabet = "abcdefghijklmnopqrstuvwxyz"
