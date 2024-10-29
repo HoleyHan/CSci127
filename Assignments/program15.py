@@ -1,5 +1,5 @@
-#Name: Han Ning Zhang, Han Zhang
-#Email: han.zhang65@myhunter.cuny.edu, han.zhang.med18@gmail.com
+#Name:
+#Email: 
 #Date: October 8, 2024
 #Create cypher encrypting program
 
