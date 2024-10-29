@@ -1,5 +1,5 @@
-# Name:  Han Zhang
-# Email: han.zhang.med18@gmail.com
+# Name:  
+# Email: 
 # Date:  September 2024
 # Takes elevation data of NYC and displays using the default color map
 
