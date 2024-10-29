@@ -1,5 +1,5 @@
-#Name: Han Ning Zhang, Han Zhang
-#Email: han.zhang65@myhunter.cuny.edu, han.zhang.med18@gmail.com
+#Name: 
+#Email: 
 #Date: September 20, 2024
 #Moving program
 
